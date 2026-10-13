@@ -1,0 +1,11 @@
+{
+  "schemaVersion": 1,
+  "id": "verdant",
+  "version": "${version}",
+  "name": "Verdant",
+  "description": "A forest-green client utility mod with configurable block ESP and a compact click GUI.",
+  "authors": ["Verdant"],
+  "environment": "client",
+  "entrypoints": { "client": ["com.verdant.client.VerdantClient"] },
+  "depends": { "fabricloader": ">=0.18.1", "minecraft": "~1.21.11", "java": ">=21", "fabric-api": "*" }
+}
